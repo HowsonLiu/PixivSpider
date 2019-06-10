@@ -2,6 +2,7 @@ from myhttp import *
 import re
 from environment import env
 
+
 class IDDownloader:
     url = r'https://www.pixiv.net/member_illust.php?mode=medium&illust_id={}'
     save_path = None
